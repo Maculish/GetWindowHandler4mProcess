@@ -50,7 +50,7 @@ namespace 获取进程中所有窗体的句柄
             GetWindowThreadProcessId(p_Handle, ref pId);
 
 
-            if (pId == 53984)                          //13288这个为你要找的进程id
+            if (pId == 53984)                          //53984这个为你要找的进程id
             {
                 handleList.Add(p_Handle);
             }
